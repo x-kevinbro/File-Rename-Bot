@@ -46,12 +46,12 @@ class Config(object):
     DB_URL = os.environ.get("DB_URL","mongodb+srv://kevin:HnlobyNiURA7xLMF@cluster0.83vo1.mongodb.net/")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://image2url.com/images/1764606382291-2861db94-c9c0-4034-bf99-33bf517ea9f9.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7561657074').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003202570169"))
 
     # free upload limit 
-    FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
+    FREE_UPLOAD_LIMIT = 7561657074 # calculation 6*1024*1024*1024=results
 
     # premium mode feature ✅
     UPLOAD_LIMIT_MODE = True 
@@ -69,14 +69,17 @@ class Config(object):
 
 class rkn(object):
     # part of text configuration
-    START_TXT = """<b>Ｈ𝙰𝙸, {}👋
+    START_TXT = """<b>{} Hello There...👋
 
-𝚃ʜɪs 𝙸s 𝙰ɴ 𝙰ᴅᴠᴀᴄᴇᴅ 𝙰ɴᴅ 𝚈ᴇᴛ 𝙿ᴏᴡᴇʀғᴜʟ 𝚁ᴇɴᴀᴍᴇ 𝙱ᴏᴛ
-𝚄sɪɴɢ 𝚃ʜɪs 𝙱ᴏᴛ 𝚈ᴏᴜ 𝙲ᴀɴ 𝚁ᴇɴᴀᴍᴇ & 𝙲ʜᴀɴɢᴇ 𝚃ʜᴜᴍʙɴᴀɪʟ 𝙾ғ 𝚈ᴏᴜʀ 𝙵ɪʟᴇ 
-𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
-𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
+🤖 Advanced Media Management Bot
+Introducing the Advanced File Renamer Bot! 🚀
+Your all-in-one media management tool:
+⚡ File Renaming
+🖼️ Permanent Custom Thumbnails
+📝 Metadata Control
+🔄 Instant Conversion
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Made with 💖 </b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -93,7 +96,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/DigitalBotz_Support>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/ittz_kevinz>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
     UPGRADE_PREMIUM= """
